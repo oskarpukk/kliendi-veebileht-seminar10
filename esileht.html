@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://cdn.tailwindcss.com"></script>
+        <link rel="stylesheet" href="stiilid.css">
+        <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Dancing+Script&family=Pinyon+Script&display=swap" rel="stylesheet">
+        <script>
+            tailwind.config = {
+                theme: {
+                    extend: {
+                        fontFamily: {
+                            'great-vibes': ['"Great Vibes"', 'cursive'],
+                            'dancing': ['"Dancing Script"', 'cursive'],
+                            'pinyon': ['"Pinyon Script"', 'cursive'],
+                        }
+                    }
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <div class=" p-10 flex grid-flow-col columns-2 gap-4">
+            <div class="size-1/2 p-10">
+                <h1 class="relief-text font-great-vibes text-9xl"">Marie ilutuba</h1>
+                <a href="hinnakiri.html" class="hover:rounded-lg hover:bg-gray-200 relief-text font-thin text-5xl text-black p-2 mr-4">HINNAKIRI</a>                
+                <button class="hover:rounded-lg relief-text hover:bg-gray-200 font-thin text-5xl text-black p-2">BRONEERI AEG</button>
+                <img src="salongiPilt.png" alt="Marie ilutuba" class="w-full h-full object-cover">
+            </div>
+            <div>
+                <div class=" p-4 mt-[9.5rem] flex justify-center grid-flow-col columns-3 gap-5">
+                    <img src="instagram.png" alt="Instagram" class="w-12 h-12">
+                    <img src="facebook.png" alt="Facebook" class="w-12 h-12">
+                    <button onclick="window.open('https://www.tumblr.com/important-animal-images', '_blank')" class="border-0 p-0 bg-transparent">
+                        <img src="tumblr.png" alt="Tumblr" class="w-12 h-12">
+                    </button>
+                </div>
+                <div>
+                    <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d759864.9489231288!2d76.57851261358124!3d43.60167890091331!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38836fbd95dc60b7%3A0x6a0eb724b435f912!2sChocolate%20Beauty%20Salon!5e1!3m2!1sen!2see!4v1731963062401!5m2!1sen!2see" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> -->
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d20875.196930106686!2d26.73217704261858!3d58.37859818360514!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46eb371e93c7b529%3A0xd0b8fa8e54bc47ca!2sAngel%20Beauty%20O%C3%9C!5e1!3m2!1sen!2see!4v1731963379606!5m2!1sen!2see"
+                        width="600"
+                        height="350"
+                        class="rounded-lg shadow-lg"
+                        style="border:0"
+                        allowfullscreen="true"
+                        loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+                <div class="text-center">
+                    <h2 class="mt-4 font-great-vibes text-2xl">Aadress: Jaama 76, 50605 Tartu</h2>
+                    <h2 class="mt-4 font-great-vibes text-2xl">E-R 10-17</h2>
+                    <h2 class="mt-4 font-great-vibes text-2xl">L-P 10-16</h2>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

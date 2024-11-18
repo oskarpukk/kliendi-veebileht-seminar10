@@ -1,0 +1,24 @@
+body {
+    background-color: #f0f0f0;
+    background-image: 
+        radial-gradient(circle at 50% 50%, rgba(0,0,0,0.1) 0%, transparent 10%),
+        radial-gradient(circle at 0% 0%, rgba(0,0,0,0.1) 0%, transparent 15%),
+        radial-gradient(circle at 100% 0%, rgba(0,0,0,0.1) 0%, transparent 15%),
+        radial-gradient(circle at 0% 100%, rgba(0,0,0,0.1) 0%, transparent 15%),
+        radial-gradient(circle at 100% 100%, rgba(0,0,0,0.1) 0%, transparent 15%);
+    background-size: 30px 30px;
+    background-position: 0 0, 15px 15px, 15px 15px, 15px 15px, 15px 15px;
+}
+
+.relief-text {
+    color: #2c2c2c;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.2),
+                 -1px -1px 1px rgba(255,255,255,0.9);
+}
+
+.embossed-bg {
+    background-color: rgba(240, 240, 240, 0.8);
+    box-shadow: inset 3px 3px 5px rgba(0,0,0,0.2),
+                inset -3px -3px 5px rgba(255,255,255,0.9);
+    backdrop-filter: blur(5px);
+}

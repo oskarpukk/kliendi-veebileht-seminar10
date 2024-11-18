@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://cdn.tailwindcss.com"></script>
+        <link rel="stylesheet" href="stiilid.css">
+        <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Dancing+Script&family=Pinyon+Script&display=swap" rel="stylesheet">
+        <script>
+            tailwind.config = {
+                theme: {
+                    extend: {
+                        fontFamily: {
+                            'great-vibes': ['"Great Vibes"', 'cursive'],
+                            'dancing': ['"Dancing Script"', 'cursive'],
+                            'pinyon': ['"Pinyon Script"', 'cursive'],
+                        }
+                    }
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <div class="p-10">
+            <h1 class="relief-text font-great-vibes text-8xl text-center mb-12">Hinnakiri</h1>
+            
+            <div class="max-w-3xl mx-auto embossed-bg rounded-lg p-8">
+                <div class="space-y-6">
+                    <div class="flex justify-between items-center border-b border-gray-300 pb-4">
+                        <h2 class="font-great-vibes text-4xl">Juuksur</h2>
+                    </div>
+                    
+                    <div class="flex justify-between items-center">
+                        <span class="font-dancing text-2xl">Naiste lõikus</span>
+                        <span class="font-dancing text-2xl">35€</span>
+                    </div>
+                    <div class="flex justify-between items-center">
+                        <span class="font-dancing text-2xl">Meeste lõikus</span>
+                        <span class="font-dancing text-2xl">25€</span>
+                    </div>
+                    <div class="flex justify-between items-center">
+                        <span class="font-dancing text-2xl">Värvimine</span>
+                        <span class="font-dancing text-2xl">65€</span>
+                    </div>
+
+                    <div class="flex justify-between items-center border-b border-gray-300 pb-4 pt-8">
+                        <h2 class="font-great-vibes text-4xl">Küüned</h2>
+                    </div>
+                    
+                    <div class="flex justify-between items-center">
+                        <span class="font-dancing text-2xl">Maniküür</span>
+                        <span class="font-dancing text-2xl">30€</span>
+                    </div>
+                    <div class="flex justify-between items-center">
+                        <span class="font-dancing text-2xl">Geelküüned</span>
+                        <span class="font-dancing text-2xl">45€</span>
+                    </div>
+
+                    <div class="flex justify-between items-center border-b border-gray-300 pb-4 pt-8">
+                        <h2 class="font-great-vibes text-4xl">Näohooldus</h2>
+                    </div>
+                    
+                    <div class="flex justify-between items-center">
+                        <span class="font-dancing text-2xl">Klassikaline näohooldus</span>
+                        <span class="font-dancing text-2xl">55€</span>
+                    </div>
+                    <div class="flex justify-between items-center">
+                        <span class="font-dancing text-2xl">Näomassaaž</span>
+                        <span class="font-dancing text-2xl">40€</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-center mt-8">
+                <a href="esileht.html" class="hover:rounded-lg hover:bg-gray-200 relief-text font-thin text-3xl text-black p-2 inline-block">
+                    Tagasi avalehele
+                </a>
+            </div>
+        </div>
+    </body>
+</html>
